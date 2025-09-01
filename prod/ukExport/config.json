@@ -1,0 +1,140 @@
+{
+  "name": "UK Export",
+  "defaultProjectId": 1001,
+  "aasMandant": true,
+  "properties": [
+    {
+      "key": "asda",
+      "value": "2131231"
+    },
+    {
+      "key": "asdaxv",
+      "value": "23423"
+    }
+  ],
+  "projects": [
+    {
+      "id": 23432423,
+      "incoTerm": "DDP",
+      "przl": "PRISI",
+      "refund": false,
+      "restConfigId": "Export",
+      "addressConfirmation": false,
+      "taxationFee": 0,
+      "owa": false,
+      "manifestConfig": {
+        "manifestType": "EXPORT"
+      },
+      "collectiveCustoms": false,
+      "workflowOption": {
+        "allowDestroy": false,
+        "allowReturn": false,
+        "sammelVerzollung": {
+          "active": false
+        }
+      },
+      "aasConfig": null,
+      "apiToken": "1231231231",
+      "reporting": [
+        {
+          "reportName": "report",
+          "jenkinsJobName": "report-export"
+        }
+      ],
+      "edec": {
+        "inTransit": true,
+        "inTransitPassar": true,
+        "evv": {
+          "sentEvv": true,
+          "toAddress": "amkumar@in.com"
+        }
+      },
+      "passar": {
+        "createTransitDoc": true,
+        "activateTransitDoc": true,
+        "timeLimitForTransit": 10
+      }
+    },
+    {
+      "id": 21211112,
+      "incoTerm": "DDP",
+      "przl": "PRISI",
+      "refund": false,
+      "restConfigId": "indiaExport",
+      "addressConfirmation": false,
+      "taxationFee": 0,
+      "owa": false,
+      "manifestConfig": {
+        "manifestType": "EXPORT"
+      },
+      "collectiveCustoms": false,
+      "workflowOption": {
+        "allowDestroy": false,
+        "allowReturn": false,
+        "sammelVerzollung": {
+          "active": false
+        }
+      },
+      "aasConfig": null,
+      "apiToken": "4534533dv",
+      "edec": {
+        "inTransit": true,
+        "inTransitPassar": true,
+        "evv": {
+          "sentEvv": true,
+          "toAddress": "info@gm.in"
+        },
+        "autoCorrectRules": "asda"
+      },
+      "passar": {
+        "createTransitDoc": true,
+        "activateTransitDoc": true,
+        "timeLimitForTransit": 10
+      }
+    }
+  ],
+  "reminder": {
+    "active": true,
+    "template": null
+  },
+  "orderStatus": {
+    "active": false,
+    "ftpServer": null,
+    "ftpUser": null,
+    "ftpPassword": null,
+    "ftpPath": null
+  },
+  "overdueReport": {
+    "active": true,
+    "template": null
+  },
+  "missingMailReport": {
+    "active": false,
+    "template": null
+  },
+  "workflow": {
+    "workflowName": "export",
+    "workflowCountry": "CH"
+  },
+  "legacyConfigId": null,
+  "manifestReader": null,
+  "notification": {
+    "active": true,
+    "template": null
+  },
+  "manifestImport": {
+    "useFTP": false,
+    "ftpServer": null,
+    "ftpUser": null,
+    "ftpPassword": null,
+    "ftpPath": null
+  },
+  "mailTemplate": {
+    "bankdatenDE": null,
+    "bankdatenFR": null,
+    "bankdatenEN": null,
+    "returnAddressError": null,
+    "returnNoPickup": null,
+    "refund": null
+  }
+}
