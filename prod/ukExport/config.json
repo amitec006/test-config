@@ -1,6 +1,6 @@
 {
   "name": "UK Export",
-  "defaultProjectId": 1024,
+  "defaultProjectId": 1034,
   "aasMandant": true,
   "properties": [
     {
@@ -18,6 +18,10 @@
     {
       "key": "bpmn",
       "value": "8989"
+    },
+    {
+      "key": "qwerty",
+      "value": "12345"
     }
   ],
   "projects": [
