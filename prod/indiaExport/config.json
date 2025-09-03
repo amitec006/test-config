@@ -1,6 +1,6 @@
 {
   "name": "India Export",
-  "defaultProjectId": 1001,
+  "defaultProjectId": 1005,
   "aasMandant": true,
   "properties": [
     {
@@ -10,6 +10,10 @@
     {
       "key": "asdaxv",
       "value": "23423"
+    },
+    {
+      "key": "bmn",
+      "value": "6657"
     }
   ],
   "projects": [

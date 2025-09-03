@@ -1,6 +1,6 @@
 {
   "name": "UK Export",
-  "defaultProjectId": 1002,
+  "defaultProjectId": 1004,
   "aasMandant": true,
   "properties": [
     {
@@ -10,6 +10,10 @@
     {
       "key": "asdaxv",
       "value": "23423"
+    },
+    {
+      "key": "bmn",
+      "value": "6657"
     }
   ],
   "projects": [
